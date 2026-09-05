@@ -121,7 +121,7 @@ Material changes will be reflected in the app's release notes.
 
 Questions about this policy or the app's privacy practices are welcome:
 
-**Email:** support@example.com
+**Email:** DiabDevTracker@gmail.com
 
 ---
 
