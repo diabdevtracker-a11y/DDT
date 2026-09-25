@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="img" aria-labelledby="title desc">
+  <title id="title">CareCycle mark</title>
+  <desc id="desc">A blue and teal cycle surrounding a sensor and infusion device.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2D61D4"/>
+      <stop offset="0.56" stop-color="#1E58B7"/>
+      <stop offset="1" stop-color="#3D8795"/>
+    </linearGradient>
+    <linearGradient id="cycle" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F5FBFF"/>
+      <stop offset="1" stop-color="#CBEAF4"/>
+    </linearGradient>
+    <linearGradient id="frontDevice" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#C9E2FA"/>
+    </linearGradient>
+    <linearGradient id="sensor" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#D6F2F1"/>
+      <stop offset="1" stop-color="#63AEB8"/>
+    </linearGradient>
+  </defs>
+  <rect width="1024" height="1024" fill="url(#background)"/>
+  <circle cx="505" cy="515" r="366" fill="#071C4A" opacity="0.15"/>
+  <path d="M 752 251 A 352 352 0 1 0 829 694" fill="none" stroke="#071C4A" stroke-width="174" stroke-linecap="round" opacity="0.18"/>
+  <path d="M 752 251 A 352 352 0 1 0 829 694" fill="none" stroke="url(#cycle)" stroke-width="128" stroke-linecap="round"/>
+  <path d="M 752 251 A 352 352 0 0 1 828 350" fill="none" stroke="#5AA5B3" stroke-width="128" stroke-linecap="round"/>
+  <g transform="rotate(-12 365 414)">
+    <circle cx="365" cy="414" r="141" fill="#071C4A" opacity="0.2"/>
+    <circle cx="365" cy="401" r="128" fill="url(#sensor)" stroke="#E8FAFB" stroke-width="14"/>
+    <rect x="331" y="300" width="68" height="26" rx="13" fill="#F5FBFF" opacity="0.9"/>
+    <circle cx="365" cy="404" r="46" fill="#2D61D4" opacity="0.92"/>
+    <circle cx="365" cy="404" r="16" fill="#F5FBFF"/>
+  </g>
+  <g transform="rotate(18 533 520)">
+    <rect x="420" y="386" width="250" height="300" rx="92" fill="#071C4A" opacity="0.22"/>
+    <rect x="408" y="370" width="250" height="300" rx="92" fill="url(#frontDevice)"/>
+    <circle cx="533" cy="520" r="45" fill="#2D61D4"/>
+    <circle cx="533" cy="520" r="16" fill="#F5FBFF"/>
+    <path d="M 590 637 C 619 668 648 681 680 681" fill="none" stroke="#2D61D4" stroke-width="24" stroke-linecap="round"/>
+    <rect x="669" y="667" width="64" height="28" rx="14" fill="#5AA5B3"/>
+  </g>
+</svg>
